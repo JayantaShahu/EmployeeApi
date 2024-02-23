@@ -1,0 +1,19 @@
+package com.example.demo.DTO;
+
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.List;
+@Getter
+@Setter
+
+public class EmployeeDTO {
+    private Long employeeID;
+    private String firstName;
+    private String lastName;
+    private String email;
+    private List<String> phoneNumbers;
+    private String doj;
+    private double salary;
+
+}
